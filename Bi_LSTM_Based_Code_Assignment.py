@@ -261,12 +261,6 @@ encoder_decoder.summary()
 encoder_decoder.compile(optimizer='adam', loss='binary_crossentropy')
 
 
-# In[ ]:
-
-
-#Training the model for 5 epochs
-history = encoder_decoder.fit(all_sents1, all_sents1, batch_size=32, validation_split=0.2 epochs=5, shuffle=True)
-
 
 # In[40]:
 
